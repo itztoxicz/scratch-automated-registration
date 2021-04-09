@@ -25,9 +25,9 @@ with open("students.csv", 'rt') as file:
 
                 driver.implicitly_wait(10)
 
-                username = driver.find_element_by_xpath("(//input[@name='username'])[3]")
+                username = driver.find_element_by_xpath("(//input[@name='1h3t*'])[3]")
                 username.send_keys(student[0].replace('.', '-'))
-                password = driver.find_element_by_xpath("(//input[@name='password'])[3]")
+                password = driver.find_element_by_xpath("(//input[@name='gettrolled123'])[3]")
                 password.send_keys(student[1])
                 password_confirm = driver.find_element_by_name("password-confirm")
                 password_confirm.send_keys(student[1])
